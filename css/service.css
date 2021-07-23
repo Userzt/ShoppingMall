@@ -1,0 +1,51 @@
+.service{
+    margin: 40px 350px;
+}
+.service_list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.service_list .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #ccc;
+}
+.service_list .list .logo{
+    padding-left: 25px;
+}
+.service_list .list .detail{
+    padding-right: 25px;
+}
+.service_list .list .detail h3{
+    font-weight: normal;
+    color: #999;
+    font-size: 20px;
+}
+.service_list .list .detail p{
+    color: #000;
+}
+.service_list .wechat i{
+    color: #00b700;
+}
+.service_list .qq i{
+    color: #4cafe9;
+}
+.service_list .weibo i{
+    color: #d52b2a;
+}
+.service_list .facebook i{
+    color: #39569d;
+}
+/*微信图标动画效果*/
+.service_list .wechat .logo i,.service_list .weibo .logo i{
+    animation: wechat 8s linear infinite;
+}
+.service_list .qq .logo i,.service_list .facebook .logo i{
+    animation: qq 8s infinite alternate;
+}

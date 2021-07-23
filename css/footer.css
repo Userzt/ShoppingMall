@@ -1,0 +1,106 @@
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #eaeaea;
+}
+/*页脚service*/
+.service{
+    border-bottom: 1px solid #b2dfdb;
+}
+.tit_inner{
+    margin: 0 240px;
+    padding: 30px 0;
+}
+.tit_inner .tit{
+    display: flex;
+    justify-content: space-between;
+}
+.tit_inner p{
+    height: 42px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 42px;
+}
+.tit .tit_type{
+    position: relative;
+    width: 297px;
+    padding-left: 36px;
+}
+.tit h5{
+    position: absolute;
+    width: 36px;
+    height: 43px;
+}
+.tit .duo{
+    left: 0;
+    background: url("../image/ico_service.png") no-repeat 0 0;
+}
+.tit .kuai{
+    left: 0;
+    background: url("../image/ico_service.png") no-repeat 0 -43px;
+}
+.tit .hao{
+    left: 0;
+    background: url("../image/ico_service.png") no-repeat 0 -86px;
+}
+.tit .shen{
+    left: 0;
+    background: url("../image/ico_service.png") no-repeat 0 -129px;
+}
+/*页脚导航*/
+.help{
+    border-bottom: 1px solid #b2dfdb;
+}
+.help_inner{
+    margin: 20px 300px 30px 300px;
+
+}
+.help_list{
+    display: flex;
+    justify-content: space-between;
+}
+.help_list h5{
+    font-size: 16px;
+    color: #666;
+}
+.help_list li{
+    margin-top: 5px;
+}
+.help_list li a{
+    font-size: 14px;
+
+}
+.help_list li a,.copyright_links ul li a,.copyright_cert span{
+    color: #6e6e6e;
+}
+.help_list li a:hover,.copyright_links ul li a:hover{
+    color: #d01717;
+}
+/*底部版权链接*/
+.copyright_links{
+    margin: 10px 350px 5px 350px;
+}
+.copyright_links ul{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.copyright_links ul li{
+    padding: 0 15px;
+    line-height: 12px;
+    border-right: 1px solid #ccc;
+}
+.copyright_links ul li:last-child{
+    border-right: none;
+}
+.copyright_links ul li a{
+    font-size: 12px;
+}
+.copyright_cert span{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 45%;
+}
+

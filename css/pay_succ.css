@@ -1,0 +1,12 @@
+section .pay_succ{
+    margin-top: 20px;
+    text-align: center;
+}
+section .pay_succ img{
+    width: 280px;
+    height: 90px;
+}
+section .pay_succ p{
+    margin: 80px 0 100px 0;
+    font-size: 25px;
+}

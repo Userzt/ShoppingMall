@@ -1,0 +1,25 @@
+.payment{
+    margin: 0 auto;
+}
+.payment{
+    text-align: center;
+}
+.payment p{
+    margin: 15px 0 15px 0;
+    font-size: 14px;
+    color: #333;
+}
+.payment img{
+    width: 200px;
+}
+.payment a{
+    display: block;
+    width: 80px;
+    height: 35px;
+    margin: 20px auto 40px auto;
+    font-size: 14px;
+    border-radius: 5px;
+    line-height: 35px;
+    color: #fff;
+    background-color: #d01717;
+}

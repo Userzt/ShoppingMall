@@ -1,0 +1,116 @@
+.into_cart{
+    padding: 20px 280px;
+    background-color: #f5f5f5;
+}
+.into_cart i{
+    font-size: 24px;
+    color: #71b247;
+}
+.into_cart span{
+    font-size: 24px;
+    color: #71b247;
+}
+.into_cart .goods{
+    margin: 20px 0 10px 0;
+}
+.into_cart img{
+    width: 50px;
+    height: 50px;
+}
+.into_cart .goods{
+    display: flex;
+}
+.into_cart .goods_details{
+    margin-left: 15px;
+}
+.into_cart .goods_details p:first-child{
+    margin-bottom: 10px;
+    color: #333;
+
+}
+.into_cart .goods_details p:last-child{
+    color: #a1a1a1;
+}
+.into_cart .goods_b{
+    display: flex;
+}
+.into_cart .btn{
+    display: flex;
+    align-self: flex-end;
+    margin-left: 100px;
+}
+.into_cart .btn .details_btn,.into_cart .btn .pay_btn{
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+}
+.into_cart .btn .details_btn a{
+    color: #e4393c;
+}
+.into_cart .btn .pay_btn a{
+    color: #fff;
+}
+.into_cart .btn .details_btn{
+    background-color: #fff;
+}
+.into_cart .btn .pay_btn{
+    margin-left: 15px;
+    background-color: #e4393c;
+}
+.into_cart .btn .details_btn:hover{
+    width: 118px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #e4393c;
+}
+.goods_recommend{
+    padding: 20px 250px;
+}
+.goods_recommend h4{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.goods_list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.goods_list .goods{
+    display: flex;
+}
+.goods_list .goods .goods_detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 155px;
+    margin-left: 10px;
+}
+/*.goods_list .goods .goods_6{
+    width: 155.49px;
+}*/
+.goods_list .goods .goods_detail .type{
+    color: #2c2c2c;
+}
+.goods_list .goods .goods_detail .price{
+    font-size: 14px;
+    font-weight: bold;
+    color: #d01717;
+}
+.goods_list .goods .goods_detail a{
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    color: #e4393c;
+    text-align: center;
+    margin-bottom: 8px;
+    line-height: 25px;
+    border: 1px solid #e4393c;
+}
+.goods_list .goods .goods_detail a:hover{
+    background-color: #e4393c;
+    color: #fff;
+}
+

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/*头部搜索框*/
+.header{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.search{
+    position: relative;
+    text-align: center;
+}
+.search input{
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #989898;
+    border-right: none;
+}
+.search input:focus{
+    border-color: #d01717;
+}
+.search button{
+    width: 60px;
+    height: 32px;
+    margin-left: -5px;
+    background-color: #d9534f;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.search button:hover{
+    background-color: #f66e6a;
+}
+.search i{
+    color: #fff;
+}
+.hotwords{
+    margin-top: 5px;
+}
+.hotwords ul{
+    position: relative;
+    float: left;
+    left: 50%;
+}
+.hotwords ul li{
+    float: left;
+    position: relative;
+    right: 50%;
+    margin-right: 8px;
+}
+.hotwords ul li a{
+    font-size: 13px;
+    color: #989898;
+}
+.hotwords ul li a:hover,.navigation ul a:hover,aside ul a:hover{
+    color: #d01717;
+}
+.hotwords:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/*部分页面头部导航栏*/
+section .nav_top{
+    display: flex;
+    border-bottom: 2px solid #d01717;
+}
+.nav_tit{
+    margin-left: 280px;
+}
+.nav_tit h5{
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+    background-color: #b1191a;
+}
+.nav_list li {
+    height: 50px;
+    margin-left: 20px;
+    line-height: 50px;
+}
+.nav_list ul li a{
+    font-size: 14px;
+    color: #c81623;
+}

@@ -1,0 +1,64 @@
+/*轮播图动画效果*/
+/*@keyframes carousel {
+  0%{
+    left: 0;
+  }
+  5%{
+    left: 0;
+  }
+  20%{
+    left: -790px;
+  }
+  25%{
+    left: -790px;
+  }
+  40%{
+    left: -1580px;
+  }
+  45%{
+    left: -1580px;
+  }
+  60%{
+    left: -2370px;
+  }
+  65%{
+    left: -2370px;
+  }
+  80%{
+    left: -3160px;
+  }
+  85%{
+    left: -3160px;
+  }
+  95%{
+    left: -3950px;
+  }
+  100%{
+    left: -3950px;
+  }
+}*/
+/*闹钟动画*/
+@keyframes alarm_clock {
+    50% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(15deg);
+    }
+}
+
+/*微信图标动画效果*/
+@keyframes wechat {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes qq {
+    50% {
+        transform: translate(20px) scale(1.2);
+    }
+    100% {
+        transform: translate(-20px) scale(0.5);
+    }
+}

@@ -1,0 +1,78 @@
+section{
+    height: 400px;
+}
+.register_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    margin: 0 275px 0 200px;
+}
+.register_form{
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+}
+.register_form h4{
+    margin-right: 80px;
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+    font-weight: normal;
+}
+.register_form .form_list{
+   position: relative;
+}
+.register_form .form_list p{
+    position: absolute;
+    top: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.register_form .phone p{
+    left: -58px;
+}
+.register_form .code p{
+    left: -45px;
+}
+.register_form .name p{
+    left: -32px;
+}
+.register_form .password p{
+    left: -32px;
+}
+.form_list input{
+    width: 150px;
+    height: 25px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.agreement{
+    margin: 10px 0 15px 0;
+}
+.code button{
+    width: 100px;
+    height: 27px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #ccc;
+    border: none;
+}
+.res_btn button{
+    width: 180px;
+    height: 35px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #b1191a ;
+}
+.login_btn a{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+    background-color: #d01717;
+}

@@ -1,0 +1,45 @@
+body{
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    color: #666;
+}
+.shortcut{
+    margin: auto;
+    background-color: #e3e4e5;
+    border-bottom: 1px solid #ddd;
+}
+.shortcut .nav_top{
+    width: 1190px;
+    margin: auto;
+    height: 30px;
+    line-height: 30px;
+}
+.shortcut .nav_top ul{
+    float: left;
+}
+.nav_top ul li{
+    float: left;
+}
+.nav_top ul li a,.nav_top .nav2 .nav2_a5 i{
+    text-decoration: none;
+    color: #666;
+}
+.nav_top .nav1{
+    margin-right: 560px;
+}
+.nav_top .nav1 i{
+    color: #ff0000;
+}
+.nav_top .nav2 span{
+    margin-right: 5px;
+}
+.nav_top .nav2 li a{
+    padding:0 10px 0 10px;
+    border-right: 1px solid #989898;
+}
+.nav_top .nav2 li a:hover{
+    color: #d01717;
+}
+.nav_top .nav2 .nav2_a8{
+    border-right: none;
+}
+
